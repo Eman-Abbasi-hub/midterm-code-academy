@@ -1,0 +1,39 @@
+# README.md — Eman's Code Academy
+
+## 1. Which HTML elements did you use to structure the website?
+
+I used HTML elements such as `<header>`, `<nav>`, `<section>`, and `<footer>` to organize different parts of my website. I also used `<h1>`, `<h2>`, `<h3>`, `<p>`, `<a>`, `<span>`, `<ul>`, and `<li>` to display headings, paragraphs, navigation links, course information, and lists. I used `<div>` elements to group related content, such as course cards, About boxes, and Learning Journey steps.
+
+## 2. How did you arrange the course cards?
+
+I used CSS Grid with `grid-template-columns: repeat(3, 1fr)` to arrange the six course cards into three columns on desktop screens. I used the `gap` property to maintain equal spacing between the cards. For tablet screens, I changed the layout to two columns, and for mobile screens, I arranged the cards in a single column.
+
+## 3. Which CSS property did you find most useful, and why?
+
+I found the `display: grid` property most useful because it helped me arrange the six course cards neatly in rows and columns. It made the layout organized and easier to adjust for different screen sizes. I also used Flexbox to arrange the navigation bar, About section, and Learning Journey steps.
+
+## 4. What problem did you face during development, and how did you solve it?
+
+One problem I faced was arranging the different sections and course cards properly on different screen sizes. Some elements needed adjustments to maintain proper spacing and alignment. I solved this problem by using CSS Grid, Flexbox, and media queries to change the layout for tablet and mobile screens.
+
+## 5. How did you make your website responsive?
+
+I made my website responsive by using CSS Grid, Flexbox, and CSS media queries. I used two breakpoints: 768px for tablet screens and 480px for mobile screens. On tablets, the course cards change to two columns, while on mobile screens, they change to one column. I also adjusted the navigation bar, section padding, and heading sizes to make the website easier to view on smaller devices.
+
+---
+
+## Technologies Used
+- HTML5
+- CSS3
+- CSS Grid
+- Flexbox
+- Media Queries
+
+## Live Website
+https://eman-abbasi-hub.github.io/midterm-code-academy/
+
+## GitHub Repository
+https://github.com/Eman-Abbasi-hub/midterm-code-academy
+
+## Developed By
+Eman Abbasi
